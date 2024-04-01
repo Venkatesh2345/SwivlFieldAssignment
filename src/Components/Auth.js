@@ -2,20 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBGnqwsY-hjaNQi9AomheVARiJ5IoCvyRw",
-
-  authDomain: "listedassignment-62fcf.firebaseapp.com",
-
-  projectId: "listedassignment-62fcf",
-
-  storageBucket: "listedassignment-62fcf.appspot.com",
-
-  messagingSenderId: "970823432142",
-
-  appId: "1:970823432142:web:f3831f03ca74e427a3dd9f",
-
-  measurementId: "G-4PLNBZV10K"
-
+  apiKey: "AIzaSyCGJ6H5zFwFOaSZbusAYCh3VfpBAQ9nh7w",
+  authDomain: "swivl-field-assignment.firebaseapp.com",
+  projectId: "swivl-field-assignment",
+  storageBucket: "swivl-field-assignment.appspot.com",
+  messagingSenderId: "716267062729",
+  appId: "1:716267062729:web:c2fb38cb8ebf309cee1418",
+  measurementId: "G-QH8HSL5RW8"
 };
 
 const app = initializeApp(firebaseConfig);
